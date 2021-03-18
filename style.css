@@ -80,9 +80,7 @@ nav li a:hover {
 }
 
 .card-info-details {
-    font-size: 1rem;
-    
-    
+    font-size: 1rem;  
 }
 
 .menu-third{
@@ -211,4 +209,132 @@ footer {
 
 .contact {
     text-decoration: underline
+}
+
+@media (max-width: 500px) {
+    .details-info p {
+        font-size: .7rem;
+    }
+    nav li a {
+        font-size: .6rem;
+    }
+
+    .dropbtn {
+        font-size: .6rem;
+    }
+
+    .menu-second-li {
+        display: none;
+    }
+    .menu-third{
+        font-size: .4rem;
+    } 
+    nav li i {
+        font-size: .8rem;
+    }
+
+}
+
+@media (max-width: 786px) {
+    .details-info p {
+        font-size: .8rem;
+    }
+    nav li a {
+        font-size: .65rem;
+    }
+    .dropbtn {
+        font-size: .65rem;
+    }
+    .menu-third{
+        font-size: .5rem;
+    } 
+    nav li i {
+        font-size: .8rem;
+    }
+    .menu-second-li {
+        font-size: .8rem;
+        
+    }
+    .card-info {
+        width: 200px;       
+    }
+    
+    .card-info-details {
+        font-size: .7rem;  
+    }
+
+    .menu-third{
+        margin-top: -1.5%;
+    }
+
+
+    
+
+}
+
+@media (max-width: 992px) {
+    .card-info {
+        width: 200px;
+       
+    }
+    
+    .card-info-details {
+        font-size: .7rem;  
+    }
+    .menu-third{
+        margin-top: -1.5%;
+    }
+
+    .menu-second-li {
+        margin-left: 75%;
+    }
+
+    nav li a {
+        font-size: .75rem;
+    }
+    .dropbtn {
+        font-size: .75rem;
+    }
+    nav li i {
+        margin: 0;
+    }
+    .menu-third{
+        margin-top: -5.5%;
+    }
+
+
+
+}
+
+@media (max-width: 1200px) {
+    nav li a {
+        font-size: .75rem;
+    }
+    .dropbtn {
+        font-size: .75rem;
+    }
+    nav li i {
+        margin: 0;
+    }
+    .menu-third{
+        margin-top: -0.5%;
+    }
+    .card-info-details {
+        font-size: .8rem;  
+    }
+    .card-info {
+        width: 200px;
+    }
+
+    .menu-second-li {
+        font-size: .7rem;
+        margin-left: 72%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 1500px) {
+    nav li i {
+        margin: 0;
+    }
 }

@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+.header-img {
+    position: relative;
+    height: 150px;
+    background-image: url('./img/pg_poziome_logo_kolor-300x212.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: 35% 65%;
+}
+
+/* NAVIGATION */
+
+nav {
+    height: 230px;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 38%,  rgb(0, 75, 187) 97%);
+    text-align: center;
+    line-height: 50px;
+}
+
+
+nav li {
+    display: inline-block;
+    
+}
+
+nav li a {
+    padding: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    transition: color .5s;
+    font-family: 'Montserrat';
+}
+
+nav li i {
+    padding: 0 5px;
+    font-size: 25px;
+    margin: 20px;
+    color: #fff;
+    transition: color 0.5s;
+}
+
+nav li a:hover {
+    color: rgb(112, 213, 226);
+    
+}
+
+.menu-second-li {
+    color: #fff; 
+    font-family: 'Montserrat';
+    margin-left: 65%;
+    
+}
+
+.card-info {
+    border-color: rgb(255, 253, 253);
+    border-style: solid;
+    width: 300px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 38%, rgb(0, 75, 187) 97%);
+   
+}
+
+.card-info-details {
+    font-size: 1rem;
+    
+    
+}
+
+.menu-third{
+    margin-top: -5%;
+} 
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+
+
+/* MAIN */
+
+main{
+    width: 60%;
+    margin: 50px auto;
+}
+
+.about-us {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: rgba(2,0,36,1);
+}
+.about-us-line{
+    height: 1px;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+section {
+    margin: 40px 0;
+}
+
+.min {
+    background-position: center;
+    background-attachment: fixed;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.details-info p {
+    padding: .5rem;
+}
+
+h3 {
+    padding: .5rem;
+}
+.select-list {
+    text-align: center;
+    padding: 4px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    height: 150px;
+    width: 100%;
+    line-height: 80px;
+    background-color:  rgba(1,21,71,1);
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.foot-ico {
+    margin-left: 50px;
+}
+
+.foot-ico i {
+    padding: 0 5px;
+    font-size: 20px;
+    margin: 20px;
+    color: #fff;
+    transition: color 0.5s;
+}
+
+.foot-logo {
+    width: 210px;
+    height: 40px;
+    background-image: url('./img/Untitled.png');
+    /* margin-left: 70%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-P{
+    display: inline-block;
+    /* margin-right: 80%; */
+}
+
+.contact {
+    text-decoration: underline
+}
